@@ -1,0 +1,48 @@
+.nav__btn {
+  border-radius: 8px;
+  background: var(--green-50, #9eff00);
+  padding: 16px 24px;
+  align-items: center;
+  color: var(--grey-15, #262626);
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  width: 135px;
+  height: 59px;
+  border: none;
+}
+
+.hero__main-btn {
+  border-radius: 8px;
+  background: var(--grey-15, #262626);
+  color: var(--absolute-white, #fff);
+  font-family: Barlow;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 14px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.footer__btn {
+  display: flex;
+  padding: 14px 14px 14px 24px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--grey-15, #262626);
+  h3 {
+    color: var(--grey-90, #e6e6e6);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+  }
+}

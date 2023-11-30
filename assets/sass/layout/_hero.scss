@@ -1,0 +1,87 @@
+.hero {
+  border: 1px solid var(--grey-15, #262626);
+  margin-top: 100px;
+}
+
+.hero__main {
+  padding: 0px 50px;
+  margin-top: 120px;
+
+  h1 {
+    color: var(--absolute-white, #fff);
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 14px;
+  }
+
+  p {
+    color: var(--grey-90, #e6e6e6);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.108px;
+    margin-bottom: 50px;
+    width: 1000px;
+  }
+}
+
+.hero__main-cards {
+  .hero__main-title {
+    border: 1px solid var(--grey-15, #262626);
+    padding: 50px 50px;
+    margin-top: 0px;
+    h3 {
+      color: var(--grey-60, #98989a);
+      font-family: Barlow;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  .main__cards {
+    border: 1px solid var(--grey-15, #262626);
+    display: flex;
+    .cards {
+      display: flex;
+
+      .main__card {
+        border: 1px solid var(--grey-15, #262626);
+        padding: 50px 50px;
+        width: 300px;
+
+        img {
+          margin-bottom: 30px;
+          padding: 24px;
+          border-radius: 12px;
+          border: 1px solid var(--grey-15, #262626);
+          background: linear-gradient(
+            131deg,
+            rgba(158, 255, 0, 0.2) -66.81%,
+            rgba(158, 255, 0, 0) 37.19%
+          );
+        }
+
+        h2 {
+          color: var(--grey-90, #e6e6e6);
+          font-family: Barlow;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%; /* 30px */
+          letter-spacing: -0.12px;
+        }
+      }
+    }
+  }
+}
+
+.cards {
+  display: flex;
+}
